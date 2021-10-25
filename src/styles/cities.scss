@@ -1,0 +1,42 @@
+.cities {
+  background-image: url(../assets/images/background-city.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  padding: 90px 5%;
+  margin-top: -7%;
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+  .cities-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 36.5px;
+    .city-card {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      border-radius: 5px;
+      box-shadow: 0px 0px 20px #182b35, 0px 4px 4px rgba(0, 0, 0, 0.25),
+        inset 0px -5px 0px rgba(0, 0, 0, 0.2);
+      h3 {
+        margin: 10px;
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+        padding: 26px 24.5px;
+        margin: 0;
+        background: rgba(10, 10, 10, 0.2);
+      }
+    }
+  }
+}
