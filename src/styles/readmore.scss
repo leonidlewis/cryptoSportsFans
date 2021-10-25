@@ -1,10 +1,9 @@
 .read-more {
   display: flex;
   flex-direction: row;
-  background: linear-gradient(transparent 0%, black 10% 90%, transparent 100%);
+  background: black;
   padding: 180px 10%;
-  margin-top: -7%;
-  z-index: 2;
+  z-index: 1;
   position: relative;
   .read-more-description {
     flex: 1;

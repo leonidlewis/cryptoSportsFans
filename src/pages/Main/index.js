@@ -13,8 +13,11 @@ const Main = () => {
   return (
     <>
       <MainContent />
+      <div className="gradient-bg" />
       <ReadMore />
+      <div className="gradient-bg-reverse" />
       <Cities />
+      <div className="gradient-bg" />
       <Answers />
       <More />
       <Mint />
