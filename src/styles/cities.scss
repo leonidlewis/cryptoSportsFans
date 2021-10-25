@@ -18,6 +18,7 @@
   .cities-cards {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     gap: 12px;
     margin-top: 36.5px;
     .city-card {

@@ -22,7 +22,9 @@ const Main = () => {
       <More />
       <div className="gradient-bg-reverse" />
       <Mint />
+      <div className="gradient-bg" />
       <Utility />
+      <div className="gradient-bg-reverse" />
       <Burning />
       <FAQ />
       <Footer />

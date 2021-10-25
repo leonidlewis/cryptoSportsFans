@@ -1,0 +1,45 @@
+.burning {
+  background-image: url(../assets/images/background-city.png);
+  background-size: cover;
+  box-shadow: inset 0px -27px 36px rgba(0, 0, 0, 0.76), inset 0px 36px 36px rgba(0, 0, 0, 0.76);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  padding: 50px 10%;
+  margin-top: -40px;
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Barlow";
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Barlow";
+  }
+  .burning-lists {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .burning-reason {
+    padding: 20px;
+    border: 1px solid #0C334B;
+    background: #0C334B;
+    text-align: left;
+    border-radius: 5px;
+    ol {
+        padding-left: 20px;
+        font-size: 14px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }
+    .burning-list-header {
+      font-style: italic;
+      font-size: 18px;
+      font-weight: 800;
+      margin-bottom:5px;
+      margin-top: 0px;
+    }
+  }
+}
