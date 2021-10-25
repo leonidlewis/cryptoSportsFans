@@ -1,0 +1,30 @@
+.main-content {
+    background-image: url(../assets/images/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:50% 50%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 580px;
+    div {
+        align-self: center;
+        h3{
+            color: white;
+            font-size: 48px;
+            font-weight: 800;
+            font-family: 'Barlow';
+        }
+        button {
+            background: linear-gradient(#0C3D5B, #005F90);
+            padding: 9px 15px;
+            color: white;
+            border-radius: 5px;
+            border:none;
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+}

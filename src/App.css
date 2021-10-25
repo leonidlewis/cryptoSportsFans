@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Barlow';
+  src: local('Barlow'), url(./assets/fonts/BarlowSemiCondensed-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'BarlowBold';
+  src: local('BarlowBold'), url(./assets/fonts/BarlowSemiCondensed-Bold.ttf) format("truetype");
+}
 .App {
   text-align: center;
 }

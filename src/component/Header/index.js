@@ -1,5 +1,8 @@
 import { NavLink } from "react-router-dom";
 import { links } from "../../contants/Navigation";
+import '../../styles/header.scss';
+import walletIcon from '../../assets/images/walleticon.png';
+
 const Header = () => {
   return (
     <div className="header-container">
@@ -23,6 +26,9 @@ const Header = () => {
           <NavLink to="/terms" exact activeStyle={{ color: "#FB9F30" }}>
             Terms
           </NavLink> */}
+        </div>
+        <div className="wallet">
+          <img src={walletIcon} alt="wallet icon"/>
         </div>
       </div>
     </div>
