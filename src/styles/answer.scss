@@ -49,3 +49,36 @@
   width: 90%;
   margin: auto;
 }
+
+//More component style
+.answer-more {
+  border: 2px solid black;
+  padding: 0px 40px 40px;
+  background: black;
+  color: white;
+  .answer-more-kid {
+    padding: 100px;
+    background:#0C334B;
+    width: 50%;
+    margin: 37px auto;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "BarlowBold";
+    color: #4180a1;
+  }
+  h3 {
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "BarlowBold";
+    color: #4180a1;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Barlow";
+    em {
+      font-weight: 700;
+      color: #4180a1;
+    }
+  }
+}

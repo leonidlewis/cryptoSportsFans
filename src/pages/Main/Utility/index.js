@@ -1,6 +1,8 @@
-const NotFound = () =>{
+const Utility = () =>{
     return (
-        <p>NotFound</p>
+       <div className="utility">
+           
+       </div>
     )
 }
-export default NotFound
+export default Utility
