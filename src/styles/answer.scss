@@ -65,6 +65,12 @@
     font-weight: 800;
     font-family: "BarlowBold";
     color: #4180a1;
+    @media screen and (max-width:488px) {
+      font-size: 20px;
+    }
+    @media screen and (max-width:356px) {
+      font-size: 15px;
+    }
   }
   h3 {
     font-size: 30px;
