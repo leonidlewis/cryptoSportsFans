@@ -1,4 +1,3 @@
-
 export const readmore = {
   title: "WHO WE ARE",
   content:
@@ -161,19 +160,19 @@ export const burningData = {
     {
       title: "So why would I “Burn” my CryptoSportsFan? ",
       items: [
-        'Reduction in the supply of a particular city’s tokens may increase the value of the remaining tokens for that city;',
-        'Elimination of any unique token will reduce the overall frequency of the features included on that NFT, so other tokens with the same features will become more scarce, which may add value.',
-        'Provides an option for holders of a city token if they believe that their city is not competitive. Instead of selling, they could exchange for a rare new unique NFT.',
-      ]
+        "Reduction in the supply of a particular city’s tokens may increase the value of the remaining tokens for that city;",
+        "Elimination of any unique token will reduce the overall frequency of the features included on that NFT, so other tokens with the same features will become more scarce, which may add value.",
+        "Provides an option for holders of a city token if they believe that their city is not competitive. Instead of selling, they could exchange for a rare new unique NFT.",
+      ],
     },
     {
-      title: 'So how does this “Burning” Work?',
+      title: "So how does this “Burning” Work?",
       items: [
-        'Any holder of the city token with the lowest wins at the end of a calendar year may burn two tokens',
-        'Each two tokens burned allows you to receive a replacement token with new hand-drawn unique traits.',
-        'These fans still have all of the benefits of the original token but deflates the original number, allowing you a greater chance to win the weekly/monthly sporting experiences',
-      ]
-    }
+        "Any holder of the city token with the lowest wins at the end of a calendar year may burn two tokens",
+        "Each two tokens burned allows you to receive a replacement token with new hand-drawn unique traits.",
+        "These fans still have all of the benefits of the original token but deflates the original number, allowing you a greater chance to win the weekly/monthly sporting experiences",
+      ],
+    },
   ],
 };
 
@@ -210,68 +209,99 @@ export const faqList = [
   },
 ];
 
-export const roadMapData = [
-  {
-    title:'Pre- Launch - December 1, 2021:',
-    list:[
-      'Reveal more art and sample CryptoSportsFans through this site, Discord and social media.',
-      'Limited pre-sale of random CryptoSportsFans and free drops to influencers',
-      'Discord general community opens.',
-    ],
-    url:"./assets/images/14.png"
-  },
-  {
-    title:'Launch- January 2, 2022:',
-    list:[
-      ' Minting begins on this site, and freshly minted unique CryptoSportsFans are born',
-      ' The “Luxury Box” Private area of the website and Discord are opened for holders',
-    ],
-    url:"./assets/images/28.png"
-  },
-  {
-    title:'100% of First Generation CryptoSportsFans have been minted:',
-    list:[
-      ' Members vote to select six more cities for Generation 2 CryptoSportsFans.',
-      'Unlock feature allowing holders of a male & female CryptoSportsFans to mint free drop of a CryptoSportsFan kid',
-      'Open Merch store exclusive for holders to buy CryptoSportsFans apparel - including shirts, hats, beer koozies, bottle openers, (and potentially CryptoSportsFans labeled beer cans limited to buyers in State which allow shipping of beer.)  More to be announced!',
-      'PRINTS. Large high quality prints offered to holders with their own CryptoSportsFan.'
-    ],
-    url:"./assets/images/42.png"
-  },
-  {
-    title:'Baseball Season Begins in March (exact date varies each year):',
-    list:[
-      'Launch Discord games and events based on big game nights.',
-      ' Launch reward program for holders who are most active in the Discord group. Select moderators;',
-      'At end of Baseball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
-      'Optional “Burning” system is launched;'
-    ],
-    url:"./assets/images/56.png"
-  },
-  {
-    title:'Football Season Begins in September:',
-    list:[
-      ' Launch Gen 2 of CryptoSportsFans for 6 new cities;',
-      ' Launch Discord games and events based on big Football game nights.',
-      ' At end of Football Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
-    ],
-    url:"./assets/images/70.png"
-  },
-  {
-    title:'Basketball Season Begins in October:',
-    list:[
-      'Launch Discord games and events based on big basketball game nights.',
-      ' At end of Basketball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
-    ],
-    url:"./assets/images/85.png"
-  },
-  {
-    title:'End of Calendar Year:',
-    list:[
-      ' Calculate total wins for each city to Crown the Championship City and issue rewards to each holder for that city from the community wallet fund (Wings, Special Champ Merch, and Metaverse event)',
-      'Winning holders vote on donation to a sports related charity from the community wallet fund',
-      'Launch program to allow holders to trade in their NFT to upgrade to Championship City CryptoSportsFans',
-    ],
-    url:"./assets/images/100.png"
-  }
-]
+export const roadMapData = {
+  pageTitle: "ROADMAP",
+  description:
+    " We have planned this out for a long time, and as described above, we have a lot of fun “utility,” gaming and rewards to offer. But the fun doesn’t stop there - other ideas are still in the game plan, and will be revealed overtime. For now, a sneak peak at what we’re working on in the short term can be found below.",
+  roadmap: [
+    {
+      title: "Pre- Launch - December 1, 2021:",
+      list: [
+        "Reveal more art and sample CryptoSportsFans through this site, Discord and social media.",
+        "Limited pre-sale of random CryptoSportsFans and free drops to influencers",
+        "Discord general community opens.",
+      ],
+      url: "./assets/images/14.png",
+    },
+    {
+      title: "Launch- January 2, 2022:",
+      list: [
+        " Minting begins on this site, and freshly minted unique CryptoSportsFans are born",
+        " The “Luxury Box” Private area of the website and Discord are opened for holders",
+      ],
+      url: "./assets/images/28.png",
+    },
+    {
+      title: "100% of First Generation CryptoSportsFans have been minted:",
+      list: [
+        " Members vote to select six more cities for Generation 2 CryptoSportsFans.",
+        "Unlock feature allowing holders of a male & female CryptoSportsFans to mint free drop of a CryptoSportsFan kid",
+        "Open Merch store exclusive for holders to buy CryptoSportsFans apparel - including shirts, hats, beer koozies, bottle openers, (and potentially CryptoSportsFans labeled beer cans limited to buyers in State which allow shipping of beer.)  More to be announced!",
+        "PRINTS. Large high quality prints offered to holders with their own CryptoSportsFan.",
+      ],
+      url: "./assets/images/42.png",
+    },
+    {
+      title: "Baseball Season Begins in March (exact date varies each year):",
+      list: [
+        "Launch Discord games and events based on big game nights.",
+        " Launch reward program for holders who are most active in the Discord group. Select moderators;",
+        "At end of Baseball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);",
+        "Optional “Burning” system is launched;",
+      ],
+      url: "./assets/images/56.png",
+    },
+    {
+      title: "Football Season Begins in September:",
+      list: [
+        " Launch Gen 2 of CryptoSportsFans for 6 new cities;",
+        " Launch Discord games and events based on big Football game nights.",
+        " At end of Football Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);",
+      ],
+      url: "./assets/images/70.png",
+    },
+    {
+      title: "Basketball Season Begins in October:",
+      list: [
+        "Launch Discord games and events based on big basketball game nights.",
+        " At end of Basketball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);",
+      ],
+      url: "./assets/images/85.png",
+    },
+    {
+      title: "End of Calendar Year:",
+      list: [
+        " Calculate total wins for each city to Crown the Championship City and issue rewards to each holder for that city from the community wallet fund (Wings, Special Champ Merch, and Metaverse event)",
+        "Winning holders vote on donation to a sports related charity from the community wallet fund",
+        "Launch program to allow holders to trade in their NFT to upgrade to Championship City CryptoSportsFans",
+      ],
+      url: "./assets/images/100.png",
+    },
+  ],
+};
+
+export const termsData = {
+  pageTitle: "Terms & Conditions",
+  description:
+    "CryptoSportsFans is a collection of digital artworks (NFTs) running on Layer 2 Ethereum solution, Polygon network. This website is only an interface allowing participants to exchange digital collectibles. Users are entirely responsible for the safety and management of their own private blockchain wallets and validating all transactions and contracts generated by this website before approval. Furthermore, as the CryptoSportsFans smart contract runs on a blockchain network, there is no ability to undo, reverse, or restore any transactions.",
+  subDescription:
+    "This website and its connected services are provided “as is” and “as available” without warranty of any kind. By using this website you are accepting sole responsibility for any and all transactions involving CryptoSportsFans digital collectibles.",
+  listTitle: "OWNERSHIP",
+  termslist: [
+    {
+      title: "You Own the NFT.",
+      content:
+        "Each CryptoSportsFan is an NFT on the Ethereum-Polygon blockchain. When you purchase an NFT, you own the underlying CryptoSportsFan, the Art, completely. Ownership of the NFT is mediated entirely by the Smart Contract and the Ethereum Network: at no point may we seize, freeze, or otherwise modify the ownership of any CryptoSportsFan.",
+    },
+    {
+      title: "Personal Use. ",
+      content:
+        "Subject to your continued compliance with these Terms, CryptoSportsFans, LLC grants you a worldwide, royalty-free license to use, copy, and display the purchased Art, along with any extensions that you choose to create or use, solely for the following purposes: (i) for your own personal, non-commercial use; (ii) as part of a marketplace that permits the purchase and sale of your CryptoSportsFans / NFT, provided that the marketplace cryptographically verifies each CryptoSportsFan owner’s rights to display the Art for their  CryptoSportsFan to ensure that only the actual owner can display the Art; or (iii) as part of a third party website or application that permits the inclusion, involvement, or participation of your CryptoSportsFan, provided that the website/application cryptographically verifies each CryptoSportsFan owner’s rights to display the Art for their CryptoSportsFan to ensure that only the actual owner can display the Art, and provided that the Art is no longer visible once the owner of the CryptoSportsFan leaves the website/application.",
+    },
+    {
+      title: "Commercial Use.",
+      content:
+        "Subject to your continued compliance with these Terms, CryptoSportsFans, LLC grants you an unlimited, worldwide license to use, copy, and display the purchased Art for the purpose of creating derivative works based upon the Art (“Commercial Use”). Examples of such Commercial Use would e.g. be the use of the Art to produce and sell merchandise products (T-Shirts etc.) displaying copies of the Art. For the sake of clarity, nothing in this Section will be deemed to restrict you from (i) owning or operating a marketplace that permits    the use and sale of CryptoSportsFans generally, provided that the marketplace cryptographically verifies each CryptoSportsFan owner’s rights to display the Art for their CryptoSportsFan to ensure that only the actual owner can display the Art; (ii) owning or operating a third party  website or application that permits the inclusion, involvement, or participation of CryptoSportsFans generally, provided that the third party website or application  cryptographically verifies each CryptoSportsFan owner’s rights to display the Art for their CryptoSportsFan to ensure that only the actual owner can display the Art, and provided that the Art is no longer visible once the owner of the Purchased CryptoSportsFan leaves the website/application; or (iii) earning revenue from any of the foregoing.",
+    },
+  ],
+};

@@ -1,7 +1,6 @@
-@import './mixins.scss';
+@import "./mixins.scss";
 .roadmap {
-    position: relative;
-
+  position: relative;
 }
 .roadmap-header {
   background-image: url(../assets/images/background.png);
@@ -12,7 +11,7 @@
   color: white;
   h1 {
     text-transform: uppercase;
-    font-family: "Barlow";
+    font-family: "BarlowBold";
     font-size: 48px;
     font-weight: 800;
   }
@@ -62,11 +61,10 @@
       @media screen and (max-width: 352px) {
         margin-right: 10px;
         .indicator-icon {
-        width: 70px;
-        height: auto;
+          width: 70px;
+          height: auto;
         }
-    }
-      
+      }
     }
     .content {
       border-radius: 5px;
