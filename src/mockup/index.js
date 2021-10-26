@@ -208,4 +208,70 @@ export const faqList = [
     content:
       "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
   },
+];
+
+export const roadMapData = [
+  {
+    title:'Pre- Launch - December 1, 2021:',
+    list:[
+      'Reveal more art and sample CryptoSportsFans through this site, Discord and social media.',
+      'Limited pre-sale of random CryptoSportsFans and free drops to influencers',
+      'Discord general community opens.',
+    ],
+    url:"./assets/images/14.png"
+  },
+  {
+    title:'Launch- January 2, 2022:',
+    list:[
+      ' Minting begins on this site, and freshly minted unique CryptoSportsFans are born',
+      ' The “Luxury Box” Private area of the website and Discord are opened for holders',
+    ],
+    url:"./assets/images/28.png"
+  },
+  {
+    title:'100% of First Generation CryptoSportsFans have been minted:',
+    list:[
+      ' Members vote to select six more cities for Generation 2 CryptoSportsFans.',
+      'Unlock feature allowing holders of a male & female CryptoSportsFans to mint free drop of a CryptoSportsFan kid',
+      'Open Merch store exclusive for holders to buy CryptoSportsFans apparel - including shirts, hats, beer koozies, bottle openers, (and potentially CryptoSportsFans labeled beer cans limited to buyers in State which allow shipping of beer.)  More to be announced!',
+      'PRINTS. Large high quality prints offered to holders with their own CryptoSportsFan.'
+    ],
+    url:"./assets/images/42.png"
+  },
+  {
+    title:'Baseball Season Begins in March (exact date varies each year):',
+    list:[
+      'Launch Discord games and events based on big game nights.',
+      ' Launch reward program for holders who are most active in the Discord group. Select moderators;',
+      'At end of Baseball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
+      'Optional “Burning” system is launched;'
+    ],
+    url:"./assets/images/56.png"
+  },
+  {
+    title:'Football Season Begins in September:',
+    list:[
+      ' Launch Gen 2 of CryptoSportsFans for 6 new cities;',
+      ' Launch Discord games and events based on big Football game nights.',
+      ' At end of Football Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
+    ],
+    url:"./assets/images/70.png"
+  },
+  {
+    title:'Basketball Season Begins in October:',
+    list:[
+      'Launch Discord games and events based on big basketball game nights.',
+      ' At end of Basketball Season announce winning city and issue rewards to holders of CryptoSportsFans for that city from the community wallet fund (Wings, Special Champ Merch, and Discord event);',
+    ],
+    url:"./assets/images/85.png"
+  },
+  {
+    title:'End of Calendar Year:',
+    list:[
+      ' Calculate total wins for each city to Crown the Championship City and issue rewards to each holder for that city from the community wallet fund (Wings, Special Champ Merch, and Metaverse event)',
+      'Winning holders vote on donation to a sports related charity from the community wallet fund',
+      'Launch program to allow holders to trade in their NFT to upgrade to Championship City CryptoSportsFans',
+    ],
+    url:"./assets/images/100.png"
+  }
 ]

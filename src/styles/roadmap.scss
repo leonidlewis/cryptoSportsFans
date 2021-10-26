@@ -20,12 +20,31 @@
   background: black;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  padding: 50px 20%;
+  position: relative;
+  @media screen and (max-width: 768px) {
+      padding: 50px 15%;
+  }
+  @media screen and (max-width: 496px) {
+    padding: 50px 10%;
+}
   .road-map-component {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 100px auto;
+    padding-bottom: 20px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0px;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      border-left: 4px dashed #0c334b;
+      margin: 90px 0px 15px 33px;
+    }
     .map-indicator {
       margin-right: 31px;
       height: 100%;
@@ -42,8 +61,6 @@
         justify-content: center;
         align-items: center;
         margin-bottom: 10px;
-        
-
         p {
           font-size: 24px;
           font-family: "Barlow";
@@ -51,11 +68,8 @@
           margin: 0;
         }
       }
-      .line {
-        width: 1px;
-        margin-left: 3px;
-        height: calc(100% - 85px);
-        border-left: 4px dashed #0C334B;
+      .line-container {
+        width: 100%;
       }
     }
     .content {
@@ -63,9 +77,11 @@
       padding: 15px;
       background: #0c334b;
       text-align: left;
+      flex: 1;
       h3 {
         font-size: 18px;
         font-weight: 800;
+        margin: 0px;
       }
       ul {
         font-size: 14px;
