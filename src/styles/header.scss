@@ -1,0 +1,51 @@
+.header-content {
+  display: flex;
+  background: #0c3d5b;
+  justify-content: center;
+  align-items: center;
+  a {
+    text-decoration: none;
+    flex: 1;
+    color: white;
+    font-family: "Barlow";
+  }
+  .nav-bar {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 503px) {
+      display: none;
+    }
+  }
+  .wallet {
+    flex: 1;
+  }
+}
+.Navigation {
+  flex:3;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    margin: 10px 20px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a,
+  a:visited {
+    color: #ffffff;
+  }
+
+  a:hover {
+    color: #525dce;
+  }
+}

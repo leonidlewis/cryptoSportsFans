@@ -1,0 +1,70 @@
+.utility {
+  background: black;
+  color: white;
+  padding: 64px 5%;
+  h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "BarlowBold";
+  }
+  h3 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Barlow";
+  }
+
+  .utility-contents {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: left;
+    gap: 50px;
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+    div {
+      flex: 1;
+    }
+    ul {
+      list-style-type: disc;
+    }
+    ol.trophy-list {
+      list-style: none;
+      .trophy-item {
+        margin-bottom: 10px;
+      }
+      p {
+        font-size: 16px;
+        font-weight: 700;
+        margin: 0;
+      }
+      ul {
+        list-style-type: disc;
+      }
+    }
+    a {
+      font-style: italic;
+      font-size: 14px;
+      font-weight: 600;
+      color: #4180a1;
+      margin-left: 5px;
+    }
+    .utility-content-header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      img {
+        margin-right: 15px;
+      }
+    }
+    ul,
+    ol {
+      padding-left: 25px;
+    }
+  }
+}

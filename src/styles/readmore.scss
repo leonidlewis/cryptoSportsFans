@@ -1,0 +1,50 @@
+@import './mixins.scss';
+.read-more {
+  display: flex;
+  flex-direction: row;
+  background: black;
+  padding: 180px 10%;
+  z-index: 1;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+  .read-more-description {
+    flex: 1;
+    color: white;
+    padding: 0 60px;
+    text-align: left;
+  }
+  .read-more-images {
+    flex: 2;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    @media screen and (max-width: 1160px) {
+      grid-template-columns: auto auto;
+    }
+    @media screen and (max-width: 506px) {
+      grid-template-columns: auto;
+      flex:1;
+      justify-content: center;
+    }
+    div {
+      width: 200px;
+      border-radius: 5px;
+      p {
+        background: #0c3d5b;
+        color: white;
+        border-radius: 5px;
+        margin-top: 4px;
+        padding: 4px;
+        font-family: "Barlow";
+        font-size: 18px;
+        font-weight: 700;
+      }
+      img {
+        width: inherit;
+        border-radius: 5px;
+      }
+    }
+  }
+}

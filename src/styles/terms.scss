@@ -1,0 +1,54 @@
+.terms-header {
+  background-image: url(../assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 100px 10%;
+  color: white;
+  h1 {
+    font-size: 48px;
+    font-family: 'BarlowBold';
+    font-weight: 800;
+  }
+  p{
+    font-size: 20px;
+    font-family: 'Barlow';
+    font-weight: 600;
+  }
+}
+.terms-list-container {
+  text-align: left;
+  p{
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Barlow';
+  }
+  ul li {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Barlow';
+    margin-bottom: 20px;
+  }
+}
+.terms-content {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  padding: 50px 20%;
+  h3 {
+    font-size:30px;
+    font-family: 'BarlowBold';
+    font-weight: 800;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 50px 15%;
+  }
+  @media screen and (max-width: 568px) {
+    padding: 50px 10%;
+  }
+}

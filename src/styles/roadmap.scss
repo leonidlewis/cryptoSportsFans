@@ -1,0 +1,86 @@
+@import "./mixins.scss";
+.roadmap {
+  position: relative;
+}
+.roadmap-header {
+  background-image: url(../assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  padding: 100px 10%;
+  color: white;
+  h1 {
+    text-transform: uppercase;
+    font-family: "BarlowBold";
+    font-size: 48px;
+    font-weight: 800;
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+.roadmap-content {
+  background: black;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 20%;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    padding: 50px 15%;
+  }
+  @media screen and (max-width: 496px) {
+    padding: 50px 10%;
+  }
+  .road-map-component {
+    display: grid;
+    grid-template-columns: 100px auto;
+    padding-bottom: 20px;
+    position: relative;
+    &::after {
+      content: "";
+      position: absolute;
+      width: 0px;
+      top: 0;
+      bottom: 0;
+      left: 0%;
+      border-left: 4px dashed #0c334b;
+      margin: 90px 0px 15px 33px;
+      @media screen and (max-width: 352px) {
+        margin: 80px 0px 15px 43px;
+      }
+    }
+    .map-indicator {
+      margin-right: 31px;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      @media screen and (max-width: 352px) {
+        margin-right: 10px;
+        .indicator-icon {
+          width: 70px;
+          height: auto;
+        }
+      }
+    }
+    .content {
+      border-radius: 5px;
+      padding: 15px;
+      background: #0c334b;
+      text-align: left;
+      flex: 1;
+      h3 {
+        font-size: 18px;
+        font-weight: 800;
+        margin: 0px;
+      }
+      ul {
+        font-size: 14px;
+        font-weight: 600;
+      }
+    }
+  }
+}

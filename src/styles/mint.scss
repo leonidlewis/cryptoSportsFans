@@ -1,0 +1,52 @@
+.mint {
+  background-image: url(../assets/images/background-city.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  color: white;
+  padding: 50px;
+  margin-top: -40px;
+  h1 {
+    font-size: 48px;
+    font-weight: 800;
+    font-family: "BarlowBold";
+  }
+  button {
+    background: linear-gradient(#0c3d5b, #005f90);
+    padding: 9px 15px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    &:hover {
+      background: white;
+      color: black;
+    }
+  }
+  p {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Barlow";
+  }
+  .mint-link {
+    width: 50%;
+    padding: 10px;
+    border: 2px solid #4180a1;
+    margin: auto;
+    span {
+        font-size: 18px;
+        font-family: "Barlow";
+        font-weight: 600;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: #4180a1;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Barlow";
+  }
+}
