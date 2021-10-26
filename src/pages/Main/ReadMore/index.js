@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 import { readmore, nfts } from "../../../mockup";
 import NftContainer from "../../../component/NftContainer";
 import menuIcon from "../../../assets/images/menu.png";
@@ -21,15 +22,33 @@ const ReadMore = () => {
             onClick={handleMenu}
           />
           <div className="menu">
-            <a>Home</a>
-            <a>Buy a CryptoSportsFan</a>
-            <a>Roadmap</a>
-            <a>Gallery</a>
-            <a>Provenance</a>
-            <a>Team</a>
-            <a>Members Only</a>
-            <a>Luxury Box</a>
-            <a>{`Terms & Conditions`}</a>
+            <NavLink to="/" exact>
+              Home
+            </NavLink>
+            <NavLink to="/" exact>
+              Buy a CryptoSportsFan
+            </NavLink>
+            <NavLink to="/roadmap" exact>
+              Roadmap
+            </NavLink>
+            <NavLink to="/" exact>
+              Gallery
+            </NavLink>
+            <NavLink to="/" exact>
+              Provenance
+            </NavLink>
+            <NavLink to="/" exact>
+              Team{" "}
+            </NavLink>
+            <NavLink to="/" exact>
+              Members Only
+            </NavLink>
+            <NavLink to="/" exact>
+              Luxury Box
+            </NavLink>
+            <NavLink to="/terms" exact>
+              {`Terms & Conditions`}
+            </NavLink>
           </div>
         </>
       ) : (

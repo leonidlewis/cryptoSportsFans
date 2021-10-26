@@ -5,6 +5,8 @@ import Main from "./pages/Main";
 import Roadmap from "./pages/Roadmap";
 import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
+import Footer from "./pages/Main/Footer";
+
 const App = () => {
   return (
     <Router>
@@ -16,6 +18,7 @@ const App = () => {
           <Route path="/terms" component={Terms} />
           <Route component={NotFound} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
