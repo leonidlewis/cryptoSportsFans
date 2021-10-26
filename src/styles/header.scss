@@ -7,13 +7,18 @@
     text-decoration: none;
     flex: 1;
     color: white;
-    font-family: 'Barlow';
+    font-family: "Barlow";
   }
   .nav-bar {
     flex: 3;
+    display: flex;
+    align-items: center;
+    @media screen and (max-width: 503px) {
+      display: none;
+    }
   }
   .wallet {
-    flex: 1
+    flex: 1;
   }
 }
 .Navigation {

@@ -20,15 +20,9 @@ const Header = () => {
               ))}
             </ul>
           </div>
-          {/* <NavLink to="/roadmap" exact activeStyle={{ color: "#FB9F30" }}>
-            Roadmap
-          </NavLink>
-          <NavLink to="/terms" exact activeStyle={{ color: "#FB9F30" }}>
-            Terms
-          </NavLink> */}
-        </div>
         <div className="wallet">
           <img src={walletIcon} alt="wallet icon"/>
+        </div>
         </div>
       </div>
     </div>
