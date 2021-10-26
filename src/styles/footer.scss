@@ -1,0 +1,20 @@
+.footer {
+    padding: 57px 20%;
+    background: #061F2F;
+    color: white;
+    h3 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .footer-icons {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        justify-content: center;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 700;
+        font-family: 'Barlow';
+    }
+}

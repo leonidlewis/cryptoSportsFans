@@ -1,9 +1,45 @@
+import React from "react";
 import { readmore, nfts } from "../../../mockup";
 import NftContainer from "../../../component/NftContainer";
-import '../../../styles/readmore.scss';
+import menuIcon from "../../../assets/images/menu.png";
+import closeIcon from "../../../assets/images/close.png";
+import "../../../styles/readmore.scss";
 const ReadMore = () => {
+  const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+  const handleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log("clcik----", isMenuOpen);
+  };
   return (
     <div className="read-more">
+      {isMenuOpen ? (
+        <>
+          <img
+            src={closeIcon}
+            alt="menu icon"
+            className="close-icon"
+            onClick={handleMenu}
+          />
+          <div className="menu">
+            <a>Home</a>
+            <a>Buy a CryptoSportsFan</a>
+            <a>Roadmap</a>
+            <a>Gallery</a>
+            <a>Provenance</a>
+            <a>Team</a>
+            <a>Members Only</a>
+            <a>Luxury Box</a>
+            <a>{`Terms & Conditions`}</a>
+          </div>
+        </>
+      ) : (
+        <img
+          src={menuIcon}
+          alt="menu icon"
+          className="menu-icon"
+          onClick={handleMenu}
+        />
+      )}
       <div className="read-more-description">
         <h1>{readmore.title}</h1>
         <p>{readmore.content}</p>

@@ -1,14 +1,14 @@
 import React from 'react';
-import FaqList from '../../../component/FaqList';
-import {faqList} from '../../../mockup';
+import AnswerList from '../../../component/AnswerList';
+import {answerList} from '../../../mockup';
 import '../../../styles/answer.scss';
 const Answers = () => {
   return (
     <div className="answers">
-      <div className="faq-list">
-        {faqList.map((item, index) => {
+      <div className="answer-list">
+        {answerList.map((item, index) => {
           return (
-            <FaqList
+            <AnswerList
               title={item.title}
               content={item.content}
               key={`index-${index}`}

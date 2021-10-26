@@ -2,7 +2,7 @@
   background: black;
   padding: 90px 20px 50px;
 }
-.faq-container {
+.answer-container {
   display: flex;
   flex-direction: column;
   padding: 15px;
@@ -11,7 +11,7 @@
   border-radius: 5px;
 }
 
-.faq-header {
+.answer-header {
   text-align: left;
   display: flex;
   flex-direction: row;
@@ -35,17 +35,16 @@
   }
 }
 
-.faq-content {
+.answer-content {
   padding-left: 0px;
   text-align: left;
   transition: all, 0.4s;
+  p {
+    color: white;
+  }
 }
 
-.faq-content p {
-  color: white;
-}
-
-.faq-list {
+.answer-list {
   width: 90%;
   margin: auto;
 }
@@ -57,11 +56,11 @@
   background: black;
   color: white;
   .answer-more-kid {
-    padding: 100px;
+    padding: 10%;
     background:#0C334B;
     width: 50%;
     margin: 37px auto;
-    font-size: 30px;
+    font-size: 10px;
     font-weight: 800;
     font-family: "BarlowBold";
     color: #4180a1;

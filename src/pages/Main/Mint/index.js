@@ -9,7 +9,7 @@ const Mint = () => {
         selected from our Discord group, and for selected influencers and key
         contributors. Pre-launch sales will be limited to 2000 random tokens so
         there will be 4000 left for others! If you miss out, we expect there to
-        be a secondary market on <a> OpenSea.com</a>
+        be a secondary market on <a href="https://www.discord.com"> OpenSea.com</a>
       </p>
       <div className="mint-link">
         <span>
@@ -17,9 +17,9 @@ const Mint = () => {
           Links to
         </span>{" "}
         <a href="https://www.discord.com">Discord</a>,
-        <a href="#">Twitter</a>,{" "}
-        <a href="#">Instagram</a>, 
-        <a href="#">FB.</a>
+        <a href="https://www.discord.com">Twitter</a>,{" "}
+        <a href="https://www.discord.com">Instagram</a>, 
+        <a href="https://www.discord.com">FB.</a>
         <p>
           <i>Mint Price 06 Ether</i>
         </p>

@@ -5,6 +5,43 @@
   padding: 180px 10%;
   z-index: 1;
   position: relative;
+  .menu-icon {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left:50px;
+    top: 50%;
+  }
+  .close-icon {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left:50px;
+    top: 50%;
+  }
+  .menu {
+    position: absolute;
+    left:125px;
+    bottom: calc(50% - 50px);
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background:#0C3D5B;
+    border-radius: 5px;
+    padding:20px 24px;
+    box-sizing: border-box;
+    transition: all 1s ease;
+    a {
+      padding: 3.5px 0px;
+      color: white;
+      font-size: 18px;
+      font-weight: 600;
+      font-family: 'Barlow';
+    }
+  }
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
   .read-more-description {
     flex: 1;
     color: white;
@@ -16,6 +53,14 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
+    @media screen and (max-width: 1160px) {
+      grid-template-columns: auto auto;
+    }
+    @media screen and (max-width: 506px) {
+      grid-template-columns: auto;
+      flex:1;
+      justify-content: center;
+    }
     div {
       width: 200px;
       border-radius: 5px;

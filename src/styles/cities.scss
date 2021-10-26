@@ -21,6 +21,18 @@
     justify-content: center;
     gap: 12px;
     margin-top: 36.5px;
+    @media screen and (max-width: 1050px) {
+      display: grid;
+      grid-template-columns: auto auto auto;
+    }
+    @media screen and (max-width: 686px) {
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    @media screen and (max-width: 462px) {
+      display: grid;
+      grid-template-columns: auto;
+    }
     .city-card {
       display: flex;
       flex-direction: column;

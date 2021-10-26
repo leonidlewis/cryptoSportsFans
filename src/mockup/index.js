@@ -1,3 +1,4 @@
+
 export const readmore = {
   title: "WHO WE ARE",
   content:
@@ -28,7 +29,7 @@ export const citiesContent = {
     { label: "MIAMI", content: "Heat, Dolphins, Marlins", color: "#B5B81C" },
   ],
 };
-export const faqList = [
+export const answerList = [
   {
     title: "Short Answer:",
     content:
@@ -175,3 +176,36 @@ export const burningData = {
     }
   ],
 };
+
+export const faqList = [
+  {
+    title: "So, when will minting begin?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+  {
+    title: "So, how many CryptoSportsFans can I mint?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+  {
+    title: "So, how do I get a CryptoSportsFan?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+  {
+    title: "So, what is a CryptoSportsFan?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+  {
+    title: "So, what is the future of CryptoSportsFans?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+  {
+    title: "So, can I buy it on my Smartphone?",
+    content:
+      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+  },
+]
