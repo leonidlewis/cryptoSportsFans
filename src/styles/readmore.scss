@@ -8,12 +8,19 @@
   position: relative;
   @media screen and (max-width: 768px) {
     flex-direction: column;
+    padding-top: 80px
   }
   .read-more-description {
     flex: 1;
     color: white;
     padding: 0 60px;
     text-align: left;
+    @media screen and (max-width: 768px) {
+      padding: 30px 20px;
+    }
+    @media screen and (max-width: 320px) {
+      padding: 0 20px;
+    }
   }
   .read-more-images {
     flex: 2;
@@ -22,6 +29,7 @@
     grid-column-gap: 10px;
     @media screen and (max-width: 1160px) {
       grid-template-columns: auto auto;
+      justify-content: center;
     }
     @media screen and (max-width: 506px) {
       grid-template-columns: auto;

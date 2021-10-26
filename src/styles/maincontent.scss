@@ -1,36 +1,56 @@
 .main-content {
-    background-image: url(../assets/images/background.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position:50% 50%;
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
-    justify-content: space-around;
-    height: 580px;
-    @media screen and (max-width: 1024px) {
+  background-image: url(../assets/images/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 580px;
+  @media screen and (max-width: 1024px) {
+    .left-logo {
+      display: none;
     }
-    div {
-        align-self: center;
-        h3{
-            color: white;
-            font-size: 48px;
-            font-weight: 800;
-            font-family: 'Barlow';
-        }
-        button {
-            background: linear-gradient(#0C3D5B, #005F90);
-            padding: 9px 15px;
-            color: white;
-            border-radius: 5px;
-            border:none;
-            font-size: 18px;
-            font-weight: 700;
-            text-transform: uppercase;
-            &:hover {
-                background: white;
-                color: black;
-            }
-        }
+  }
+  @media screen and (max-width: 730px) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media screen and (max-width: 384px) {
+    .right-logo {
+      width: 90%;
+      height: auto;
     }
+  }
+
+  div {
+    align-self: center;
+    h3 {
+      color: white;
+      font-size: 48px;
+      font-weight: 800;
+      font-family: "Barlow";
+      @media screen and (max-width: 400px) {
+          font-size: 40px;
+      }
+      @media screen and (max-width: 326px) {
+        font-size: 30px;
+    }
+    }
+    button {
+      background: linear-gradient(#0c3d5b, #005f90);
+      padding: 9px 15px;
+      color: white;
+      border-radius: 5px;
+      border: none;
+      font-size: 18px;
+      font-weight: 700;
+      text-transform: uppercase;
+      &:hover {
+        background: white;
+        color: black;
+      }
+    }
+  }
 }

@@ -19,6 +19,13 @@
     left: 25px
   }
 }
+@media screen and (max-width: 332px) {
+  .menu-icon, .close-icon {
+    width: 50px;
+    height: 50px;
+    left: 10px
+  }
+}
 .menu {
   z-index: 4;
   position: absolute;
@@ -32,6 +39,12 @@
   padding: 20px 24px;
   box-sizing: border-box;
   transition: all 1s ease;
+  @media screen and (max-width: 362px) {
+    left: 90px;
+  }
+  @media screen and (max-width: 332px) {
+    left: 70px;
+  }
   a {
     padding: 3.5px 0px;
     color: white;
