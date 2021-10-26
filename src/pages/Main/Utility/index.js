@@ -18,13 +18,13 @@ const Utility = () => {
           <ul>
             {getting.list.map((item, index) => {
               return (
-                <li>
+                <li key={`getting-${index}`}>
                   {item.content}
                   {item.details && <a href={item.details}>Details</a>}
                   {item.sublist && (
                     <ul>
-                      {item.sublist.map((list) => (
-                        <li>{list.content}</li>
+                      {item.sublist.map((list, index) => (
+                        <li key={`subgetting-${index}`}>{list.content}</li>
                       ))}
                     </ul>
                   )}
@@ -41,15 +41,15 @@ const Utility = () => {
           <ol className="trophy-list">
             {championship.list.map((item, index) => {
               return (
-                <li className="trophy-item">
+                <li className="trophy-item" key={`championship-${index}`}>
                   <p>{item.title}</p>
                   {item.content}
                   {item.emphasis && <b>{item.emphasis}</b>}
                   {item.content2}
                   {item.sublist && (
                     <ul>
-                      {item.sublist.map((list) => (
-                        <li>{list.content}</li>
+                      {item.sublist.map((list, index) => (
+                        <li key={`subchampion-${index}`}>{list.content}</li>
                       ))}
                     </ul>
                   )}

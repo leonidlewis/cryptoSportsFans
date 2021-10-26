@@ -13,8 +13,8 @@ const Burning = () => {
             <div className="burning-reason" key={`burning-list-${index}`}>
               <p className="burning-list-header">{list.title}</p>
               <ol>
-                {list.items.map((item) => (
-                  <li>{item}</li>
+                {list.items.map((item, index) => (
+                  <li key={`burning-sublist-${index}`}>{item}</li>
                 ))}
               </ol>
             </div>
