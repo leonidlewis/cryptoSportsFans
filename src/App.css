@@ -25,6 +25,21 @@
   z-index: 2;
   margin-top: -1px;
 }
+@media screen and (max-width: 550px){
+  .gradient-bg-reverse {
+    margin-top: -3%;
+  }
+}
+@media screen and (max-width: 406px){
+  .gradient-bg-reverse {
+    margin-top: -5%;
+  }
+}
+@media screen and (max-width: 340px){
+  .gradient-bg-reverse {
+    margin-top: -7%;
+  }
+}
 
 .App-logo {
   height: 40vmin;

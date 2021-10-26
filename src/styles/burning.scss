@@ -5,7 +5,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   color: white;
-  padding: 50px 10%;
+  padding: 90px 10%;
   margin-top: -40px;
   p {
     font-size: 20px;
@@ -36,6 +36,12 @@
         font-size: 14px;
         margin-top: 5px;
         margin-bottom: 0px;
+        li {
+          font-family: 'Barlow';
+          font-size: 14px;
+          font-weight: 600;
+
+        }
     }
     .burning-list-header {
       font-style: italic;

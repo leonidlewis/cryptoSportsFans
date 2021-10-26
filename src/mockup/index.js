@@ -30,17 +30,17 @@ export const citiesContent = {
 };
 export const answerList = [
   {
-    title: "Short Answer:",
+    title: "Short Answer",
     content:
       "Gaming, FREE NFT drops, “Burning” tokens to reduce supply, rewards, cool merch, socializing opportunities with other sports fans from around the world - and yes, a cool avatar to show off on social media.",
   },
   {
-    title: "The Longer Answer:",
+    title: "The Longer Answer",
     content:
       "Each CryptoSportsFan token allows the holder free access into an exclusive community with all of the other CryptoSportsFan holders to socialize, talk sports (or talk trash), and participate in sports related challenges for prizes and rewards!   As described in more detail below,  holders of CryptoSportsFans have free entry into the Championship City competition and will get rewards (like delivery of hot chicken wings and rare token drops) if their city wins more NBA, MLB or NFL games than the other cities.  You can collect CryptoSportsFans from all cities or trade in and out based on which city you think will have the most wins",
   },
   {
-    title: "Expansion Plans:",
+    title: "Expansion Plans",
     content:
       "Once the first generation has been fully minted, we plan to expand into six more cities which will be voted upon and determined by the holders of CryptoSportsFans, and all holders have an option to buy the next generation of city CryptoSportsFans at a discounted pre-launch price!",
   },

@@ -8,7 +8,6 @@ const Roadmap = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
   const handleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
-    console.log("clcik----", isMenuOpen);
   };
   return (
     <div className="roadmap">

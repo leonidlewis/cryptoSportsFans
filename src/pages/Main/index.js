@@ -8,7 +8,6 @@ import Mint from "./Mint";
 import Utility from "./Utility";
 import Burning from "./Burning";
 import FAQ from "./FAQ";
-import Footer from "./Footer";
 const Main = () => {
   return (
     <>
@@ -28,7 +27,6 @@ const Main = () => {
       <Burning />
       <div className="gradient-bg" />
       <FAQ />
-      <Footer />
     </>
   );
 };
