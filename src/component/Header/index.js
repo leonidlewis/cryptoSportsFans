@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import { links } from "../../contants/Navigation";
-import '../../styles/header.scss';
-import walletIcon from '../../assets/images/walleticon.png';
+import "../../styles/header.scss";
+import walletIcon from "../../assets/images/walleticon.png";
 
 const Header = () => {
   return (
@@ -20,9 +20,11 @@ const Header = () => {
               ))}
             </ul>
           </div>
-        <div className="wallet">
-          <img src={walletIcon} alt="wallet icon"/>
-        </div>
+          <div className="wallet">
+            <button>
+              <img src={walletIcon} alt="wallet icon" />
+            </button>
+          </div>
         </div>
       </div>
     </div>

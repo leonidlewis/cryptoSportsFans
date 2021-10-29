@@ -1,3 +1,4 @@
+@import './mixins.scss';
 .main-content {
   background-image: url(../assets/images/background.png);
   background-size: cover;
@@ -8,6 +9,7 @@
   flex-direction: row;
   justify-content: space-around;
   height: 580px;
+  padding: 0 128px;
   @media screen and (max-width: 1024px) {
     .left-logo {
       display: none;
@@ -18,19 +20,19 @@
     align-items: center;
   }
   @media screen and (max-width: 384px) {
+    padding:0;
     .right-logo {
       width: 90%;
       height: auto;
     }
   }
-
   div {
     align-self: center;
     h3 {
       color: white;
       font-size: 48px;
       font-weight: 800;
-      font-family: "Barlow";
+      font-family: "BarlowBold";
       @media screen and (max-width: 400px) {
           font-size: 40px;
       }
@@ -45,7 +47,9 @@
       border-radius: 5px;
       border: none;
       font-size: 18px;
+      line-height: 22px;
       font-weight: 700;
+      font-family: 'Barlow';
       text-transform: uppercase;
       &:hover {
         background: white;

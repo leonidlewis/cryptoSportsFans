@@ -1,11 +1,23 @@
 .cities {
-  background-image: url(../assets/images/background-city.png);
+  background:linear-gradient(0deg, rgb(14 14 14 / 50%), rgb(11 12 12 / 50%)), url(../assets/images/background-city.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   color: white;
-  padding: 90px 5%;
+  padding: 130px 130px 127px 130px;
   margin-top: -7%;
+  @media screen and (max-width:1113px) {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  @media screen and (max-width:768px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @media screen and (max-width:550px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
   p {
     font-size: 20px;
     font-weight: 600;
@@ -37,6 +49,7 @@
     }
     .city-card {
       display: flex;
+      height: 147px;
       flex-direction: column;
       justify-content: space-between;
       border-radius: 5px;

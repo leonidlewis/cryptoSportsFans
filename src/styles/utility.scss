@@ -1,14 +1,23 @@
 .utility {
   background: black;
   color: white;
-  padding: 64px 5%;
+  padding: 64px 128px;
+  @media screen and (max-width: 1000px) {
+    padding: 64px 100px;    
+  }
+  @media screen and (max-width: 521px) {
+    padding: 64px 7%;    
+  }
   h1 {
     color: white;
     font-size: 48px;
     font-weight: 800;
     font-family: "BarlowBold";
+    margin-top: 0px;
+    margin-bottom:18.78px;
   }
   h3 {
+    font-family: "BarlowBold";
     font-weight: 800;
     font-size: 20px;
   }
@@ -32,16 +41,33 @@
     }
     ul {
       list-style-type: disc;
+      font-family: "BarlowLight";
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 19px;
     }
     ol.trophy-list {
       list-style: none;
-      .trophy-item {
+      .trophy-item,
+      span {
         margin-bottom: 10px;
+        font-family: "BarlowLight";
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16.8px;
+      }
+      span {
+        font-family: "BarlowBold";
+        font-weight: 700;
+        color: #4180a1;
+        font-style: italic;
       }
       p {
         font-size: 16px;
         font-weight: 700;
         margin: 0;
+        line-height: 19.2px;
+        font-family: "BarlowLight";
       }
       ul {
         list-style-type: disc;
@@ -52,6 +78,7 @@
       font-size: 14px;
       font-weight: 600;
       color: #4180a1;
+      font-family: 'BarlowMedium';
       margin-left: 5px;
     }
     .utility-content-header {

@@ -9,7 +9,7 @@ const Mint = () => {
         selected from our Discord group, and for selected influencers and key
         contributors. Pre-launch sales will be limited to 2000 random tokens so
         there will be 4000 left for others! If you miss out, we expect there to
-        be a secondary market on <a href="https://www.discord.com"> OpenSea.com</a>
+        be a secondary market on <a href="https://www.discord.com" className="openSeaLink"> OpenSea.com</a>
       </p>
       <div className="mint-link">
         <span>

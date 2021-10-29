@@ -1,6 +1,6 @@
 .answers {
   background: black;
-  padding: 90px 20px 50px;
+  padding: 90px 20px 29px;
 }
 .answer-container {
   display: flex;
@@ -52,23 +52,44 @@
 //More component style
 .answer-more {
   border: 2px solid black;
-  padding: 0px 40px 40px;
+  padding: 0px 180px 40px 180px;
   background: black;
   color: white;
   margin-top: -1px;
+  @media screen and (max-width:1024px) {
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+  @media screen and (max-width:768px) {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  @media screen and (max-width:576px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .kid-image {
+    width: 271px;
+    margin: 17.3px;
+    height: 80%;
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      margin: 0;
+    }
+  }
   .answer-more-kid {
     padding: 10%;
-    background:#0C334B;
+    background: #0c334b;
     width: 50%;
     margin: 37px auto;
     font-size: 30px;
     font-weight: 800;
     font-family: "BarlowBold";
     color: #4180a1;
-    @media screen and (max-width:488px) {
+    @media screen and (max-width: 488px) {
       font-size: 20px;
     }
-    @media screen and (max-width:356px) {
+    @media screen and (max-width: 356px) {
       font-size: 15px;
     }
   }
@@ -77,14 +98,17 @@
     font-weight: 800;
     font-family: "BarlowBold";
     color: #4180a1;
+    margin-bottom:37.67px;
   }
   p {
     font-size: 20px;
     font-weight: 600;
     font-family: "Barlow";
-    em {
+    span {
       font-weight: 700;
       color: #4180a1;
+      font-style: italic;
+      font-family: 'BarlowBold';
     }
   }
 }

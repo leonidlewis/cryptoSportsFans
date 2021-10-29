@@ -1,24 +1,48 @@
 .mint {
-  background-image: url(../assets/images/background-city.png);
+  background: linear-gradient(0deg, rgb(14 14 14 / 50%), rgb(11 12 12 / 50%)),
+    url(../assets/images/background-city.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   color: white;
-  padding: 50px;
+  padding: 69px 180px;
   margin-top: -40px;
+  @media screen and (max-width:1024px) {
+    padding: 69px 130px;
+  }
+  @media screen and (max-width:768px) {
+    padding: 69px 80px;
+  }
+  @media screen and (max-width:576px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   h1 {
     font-size: 48px;
     font-weight: 800;
     font-family: "BarlowBold";
   }
+  a {
+    text-decoration: underline;
+    color: #4180a1;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: "Barlow";
+  }
+  .openSeaLink {
+    font-style: italic;
+  }
   button {
     background: linear-gradient(#0c3d5b, #005f90);
-    padding: 9px 15px;
+    padding: 1px 15px;
     color: white;
     border-radius: 5px;
     border: none;
     font-size: 18px;
+    line-height: 40px;
     font-weight: 700;
+    font-family: 'Barlow';
     text-transform: uppercase;
     &:hover {
       background: white;
@@ -35,18 +59,16 @@
     padding: 10px;
     border: 2px solid #4180a1;
     margin: auto;
-    span {
-        font-size: 18px;
-        font-family: "Barlow";
-        font-weight: 600;
+    @media screen and (max-width: 450px) {
+      width: 70%;
     }
-  }
-  a {
-    text-decoration: underline;
-    color: #4180a1;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    font-family: "Barlow";
+    @media screen and (max-width: 340px) {
+      width: 90%;
+    }
+    span {
+      font-size: 18px;
+      font-family: "Barlow";
+      font-weight: 600;
+    }
   }
 }

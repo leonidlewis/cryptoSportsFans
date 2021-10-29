@@ -44,7 +44,7 @@ const Utility = () => {
                 <li className="trophy-item" key={`championship-${index}`}>
                   <p>{item.title}</p>
                   {item.content}
-                  {item.emphasis && <b>{item.emphasis}</b>}
+                  {item.emphasis && <><span>{`${item.emphasis}`}</span><br/></>}
                   {item.content2}
                   {item.sublist && (
                     <ul>

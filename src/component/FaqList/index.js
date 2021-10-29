@@ -21,8 +21,8 @@ const FaqList = ({title, content}) => {
           </button>
         </div>
         {isShow && (
-          <div className="faq-content">
-            <p>{content}</p>
+          <div className="faq-content" dangerouslySetInnerHTML={{__html:content}}>
+            
           </div>
         )}
       </div>

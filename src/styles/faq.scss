@@ -1,6 +1,18 @@
 .faq {
   background: black;
-  padding: 50px 10%;
+  padding: 50px 305px;
+  @media screen and (max-width: 1024px) {
+    padding: 50px 200px;
+  }
+  @media screen and (max-width: 768px) {
+    padding: 50px 20%;
+  }
+  @media screen and (max-width: 576px) {
+    padding: 50px 15%;
+  }
+  @media screen and (max-width: 414px) {
+    padding: 50px 5%;
+  }
   h1 {
     color: white;
     margin:0;
@@ -43,7 +55,7 @@
 
   .faq-content {
     margin-top: 6px;
-    padding: 10px;
+    padding: 39px 28.54px;
     border-radius: 2px;
     background-color: #092637;
     text-align: left;
@@ -51,11 +63,17 @@
     p {
       color: white;
       margin: 0px;
+      text-align: center;
+      font-family: 'Barlow';
+      font-size:18px;
+      a{
+        color:#4180A1;
+        text-decoration: underline;
+      }
     }
   }
 
   .faq-list {
-    width: 90%;
     margin: auto;
   }
 }
