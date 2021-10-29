@@ -6,6 +6,14 @@
   font-family: 'BarlowBold';
   src: local('BarlowBold'), url(./assets/fonts/BarlowSemiCondensed-Bold.ttf) format("truetype");
 }
+@font-face {
+  font-family: 'BarlowMedium';
+  src: local('BarlowMedium'), url(./assets/fonts/BarlowSemiCondensed-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: 'BarlowLight';
+  src: local('BarlowLight'), url(./assets/fonts/BarlowSemiCondensed-Light.ttf) format("truetype");
+}
 .App {
   text-align: center;
   position:'relative';

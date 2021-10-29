@@ -1,25 +1,42 @@
-@import './mixins.scss';
+@import "./mixins.scss";
 .read-more {
   display: flex;
   flex-direction: row;
   background: black;
-  padding: 180px 10%;
+  padding: 180px 128px 124px 180px;
   z-index: 1;
   position: relative;
+  @media screen and (max-width:935px){
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+  @media screen and (max-width:815px){
+    padding-left: 70px;
+    padding-right: 70px;
+  }
   @media screen and (max-width: 768px) {
     flex-direction: column;
-    padding-top: 80px
+    padding-top: 80px;
   }
   .read-more-description {
     flex: 1;
     color: white;
-    padding: 0 60px;
+    padding: 0px;
+    padding-right: 52px;
     text-align: left;
+    h1 {
+      margin-top: 0;
+      line-height: 57.6px;
+      margin-bottom: 18.68px;
+    }
     @media screen and (max-width: 768px) {
       padding: 30px 20px;
     }
     @media screen and (max-width: 320px) {
       padding: 0 20px;
+    }
+    .gift-video {
+      width: 100%;
     }
   }
   .read-more-images {
@@ -33,7 +50,7 @@
     }
     @media screen and (max-width: 506px) {
       grid-template-columns: auto;
-      flex:1;
+      flex: 1;
       justify-content: center;
     }
     div {

@@ -1,3 +1,5 @@
+import kidImage from "../../../assets/images/kid.png";
+
 const More = () => {
   return (
     <div className="answer-more">
@@ -7,7 +9,8 @@ const More = () => {
         allow CryptoSportsFan couples to have <em>CryptoSportsFan kids</em> at
         no additional cost.<em>Free NFTs!</em>
       </p>
-      <div className="answer-more-kid">CryptoSportsFan KID</div>
+      <img src={kidImage} className="kid-image" alt="left logo" />
+      {/* <div className="answer-more-kid">CryptoSportsFan KID</div> */}
       <p>
         Having a CryptoSportsFan grants you 100% creative and commercial rights.
         You own it, so you can use it as your social media avatar or do anything

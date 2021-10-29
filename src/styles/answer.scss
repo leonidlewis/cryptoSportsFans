@@ -56,19 +56,28 @@
   background: black;
   color: white;
   margin-top: -1px;
+  .kid-image {
+    width: 271px;
+    margin: 17.3px;
+    height: 80%;
+    @media screen and (max-width: 400px) {
+      width: 100%;
+      margin: 0;
+    }
+  }
   .answer-more-kid {
     padding: 10%;
-    background:#0C334B;
+    background: #0c334b;
     width: 50%;
     margin: 37px auto;
     font-size: 30px;
     font-weight: 800;
     font-family: "BarlowBold";
     color: #4180a1;
-    @media screen and (max-width:488px) {
+    @media screen and (max-width: 488px) {
       font-size: 20px;
     }
-    @media screen and (max-width:356px) {
+    @media screen and (max-width: 356px) {
       font-size: 15px;
     }
   }
