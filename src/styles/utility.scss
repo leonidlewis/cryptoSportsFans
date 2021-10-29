@@ -1,7 +1,13 @@
 .utility {
   background: black;
   color: white;
-  padding: 64px 5%;
+  padding: 64px 128px;
+  @media screen and (max-width: 1000px) {
+    padding: 64px 100px;    
+  }
+  @media screen and (max-width: 521px) {
+    padding: 64px 7%;    
+  }
   h1 {
     color: white;
     font-size: 48px;

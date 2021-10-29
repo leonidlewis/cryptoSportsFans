@@ -10,7 +10,7 @@ const MainContent = () => {
       <img src={leftLogo} className="left-logo" alt="left logo" />
       <div>
         <h3>CryptoSportsFans</h3>
-        <button>available on opensea</button>
+        <button>MINT A CRYPTOSPORTSFAN</button>
       </div>
       <img src={rightlogo} className="right-logo" alt="right logo" />
     </div>
