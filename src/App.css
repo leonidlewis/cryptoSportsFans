@@ -8,6 +8,7 @@
 }
 .App {
   text-align: center;
+  position:'relative';
 }
 .gradient-bg {
   background: linear-gradient(transparent, black);

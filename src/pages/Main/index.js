@@ -8,6 +8,7 @@ import Mint from "./Mint";
 import Utility from "./Utility";
 import Burning from "./Burning";
 import FAQ from "./FAQ";
+
 const Main = () => {
   return (
     <>

@@ -1,19 +1,12 @@
-.menu-icon {
+.menu-icon, .close-icon {
   width: 60px;
   height: 60px;
-  position: absolute;
-  left: 50px;
-  top: 50%;
+  position: fixed;
+  left: 30px;
+  bottom: 50px;
   z-index: 4;
 }
-.close-icon {
-  width: 60px;
-  height: 60px;
-  position: absolute;
-  left: 50px;
-  top: 50%;
-  z-index: 4;
-}
+
 @media screen and (max-width: 568px) {
   .menu-icon, .close-icon {
     left: 25px
@@ -28,9 +21,9 @@
 }
 .menu {
   z-index: 4;
-  position: absolute;
-  left: 125px;
-  bottom: calc(50% - 50px);
+  position: fixed;
+  left: 105px;
+  bottom: 60px;
   display: flex;
   flex-direction: column;
   text-align: left;
