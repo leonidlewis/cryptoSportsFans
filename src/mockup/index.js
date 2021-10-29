@@ -180,32 +180,32 @@ export const faqList = [
   {
     title: "So, when will minting begin?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+      "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
   {
     title: "So, how many CryptoSportsFans can I mint?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+    "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
   {
     title: "So, how do I get a CryptoSportsFan?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+    "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
   {
     title: "So, what is a CryptoSportsFan?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+    "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
   {
     title: "So, what is the future of CryptoSportsFans?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+    "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
   {
     title: "So, can I buy it on my Smartphone?",
     content:
-      "Presale begins on December 15th, 2021 at this site Public Launch begins on January 2nd, 2022 @5PM EST. Follow us on Twitter or Facebook and join our Discord  to stay updated!",
+    "<p>Presale begins on December 15th, 2021 at this site</p><p> Public Launch begins on January 2nd, 2022 @5PM EST.</p><p> Follow us on <a> Twitter</a> or <a>Facebook</a> and join our <a>Discord</a>  to stay updated!</p>",
   },
 ];
 

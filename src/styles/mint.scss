@@ -5,8 +5,18 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   color: white;
-  padding: 50px;
+  padding: 69px 180px;
   margin-top: -40px;
+  @media screen and (max-width:1024px) {
+    padding: 69px 130px;
+  }
+  @media screen and (max-width:768px) {
+    padding: 69px 80px;
+  }
+  @media screen and (max-width:576px) {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
   h1 {
     font-size: 48px;
     font-weight: 800;
@@ -32,7 +42,7 @@
     font-size: 18px;
     line-height: 40px;
     font-weight: 700;
-    height: 40px;
+    font-family: 'Barlow';
     text-transform: uppercase;
     &:hover {
       background: white;

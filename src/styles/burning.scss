@@ -1,5 +1,6 @@
 .burning {
-  background-image: url(../assets/images/background-city.png);
+  background: linear-gradient(0deg, rgb(14 14 14 / 50%), rgb(11 12 12 / 50%)),
+  url(../assets/images/background-city.png);
   background-size: cover;
   box-shadow: inset 0px -27px 36px rgba(0, 0, 0, 0.76), inset 0px 36px 36px rgba(0, 0, 0, 0.76);
   background-repeat: no-repeat;
@@ -15,7 +16,7 @@
   h3 {
     font-size: 30px;
     font-weight: 800;
-    font-family: "Barlow";
+    font-family: "BarlowBold";
   }
   .burning-lists {
     display: flex;
@@ -49,6 +50,7 @@
       font-weight: 800;
       margin-bottom:5px;
       margin-top: 0px;
+      font-family: 'BarlowBold';
     }
   }
 }
