@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <div className="wallet">
             <button>
-              <img src={walletIcon} alt="wallet icon" />
+              <p>Connect Wallet</p>
             </button>
           </div>
         </div>
