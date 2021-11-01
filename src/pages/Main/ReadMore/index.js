@@ -10,9 +10,6 @@ const ReadMore = () => {
       <div className="read-more-description">
         <h1>{readmore.title}</h1>
         <p>{readmore.content}</p>
-        <video className="gift-video" autoPlay loop>
-          <source src={giftVideo} type="video/mp4"/>
-        </video>
       </div>
       <div className="read-more-images">
         {nfts.map((item, index) => {

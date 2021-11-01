@@ -43,7 +43,7 @@
       padding: 0 20px;
     }
     .gift-video {
-      width: 100%;
+      width: 90%;
     }
   }
   .read-more-images {
@@ -51,7 +51,6 @@
     display: grid;
     grid-template-columns: auto auto auto;
     grid-column-gap: 10px;
-    height: 0px;
     @media screen and (max-width: 1160px) {
       grid-template-columns: auto auto;
       justify-content: center;
