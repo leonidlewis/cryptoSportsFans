@@ -1,7 +1,6 @@
 import React from "react";
 import { readmore, nfts } from "../../../mockup";
 import NftContainer from "../../../component/NftContainer";
-import giftVideo from '../../../assets/video/gift.mp4';
 import "../../../styles/readmore.scss";
 
 const ReadMore = () => {

@@ -1,7 +1,6 @@
 import { NavLink } from "react-router-dom";
 import { links } from "../../contants/Navigation";
 import "../../styles/header.scss";
-import walletIcon from "../../assets/images/walleticon.png";
 
 const Header = () => {
   return (
