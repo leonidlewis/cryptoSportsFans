@@ -1,6 +1,7 @@
 export const links = [
-  { to: "roadmap", label: "Roadmap" },
-  { to: "www.discord.com", label: "Discord" },
-  { to: "www.Tiktok.com", label: "TikTok" },
-  { to: "www. twitter.com", label: "Twitter" },
+  { to: "roadmap", label: "Home" },
+  { to: "www.discord.com", label: "About" },
+  { to: "www.Tiktok.com", label: "The Caboodles" },
+  { to: "www. twitter.com", label: "Team" },
+  { to: "www. twitter.com", label: "Roadmap" },
 ];
