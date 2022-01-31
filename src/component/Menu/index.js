@@ -17,28 +17,19 @@ const Menu = ({isMenuOpen, handleMenu}) => {
               Home
             </NavLink>
             <NavLink to="/" exact>
-              Buy a CryptoSportsFan
+              About
             </NavLink>
             <NavLink to="/roadmap" exact>
               Roadmap
             </NavLink>
             <NavLink to="/" exact>
-              Gallery
-            </NavLink>
-            <NavLink to="/" exact>
-              Provenance
+              The Caboodles
             </NavLink>
             <NavLink to="/" exact>
               Team{" "}
             </NavLink>
-            <NavLink to="/" exact>
-              Members Only
-            </NavLink>
-            <NavLink to="/" exact>
-              Luxury Box
-            </NavLink>
-            <NavLink to="/terms" exact>
-              {`Terms & Conditions`}
+            <NavLink to="/roadmap" exact>
+              Roadmap
             </NavLink>
           </div>
         </>
